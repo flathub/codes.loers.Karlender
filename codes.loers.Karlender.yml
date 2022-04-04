@@ -27,6 +27,6 @@ modules:
       - make -C target/gra-gen .flatpak-install
     sources:
       - type: archive
-        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.3.16/karlender-0.3.16.tar.xz"
-        sha256: "0f6d9b326ff249fb1e59d44683e992420a8860e72b0b0ceaa6daae65043d66f1"
+        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.4.0/karlender-0.4.0.tar.xz"
+        sha256: "4ea6a61ec9c3f881bcc5df9a1d351b98e7830f12249709d0be59fee9cd0a46ff"
 
