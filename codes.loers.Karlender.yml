@@ -12,7 +12,9 @@ finish-args:
   - --socket=wayland
   - --device=dri
   - --socket=pulseaudio
-  - --talk-name=org.freedesktop.secrets.*
+  - --talk-name=org.freedesktop.secrets
+  - --talk-name=org.freedesktop.Notifications
+  - --talk-name=org.freedesktop.portal.Background
 build-options:
   append-path: /usr/lib/sdk/rust-stable/bin
   env:
@@ -27,6 +29,6 @@ modules:
       - make -C target/gra-gen .flatpak-install
     sources:
       - type: archive
-        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.4.2/karlender-0.4.2.tar.xz"
-        sha256: "dfd64b8d02344c6bc7fe965d4631bf90f4e1d7e35e607d38352568759e598ff5"
+        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.4.4/karlender-0.4.4.tar.xz"
+        sha256: "6b0091d251370b16f65011ba2434feaafe36721227a3e9458a2ba20e3884eb6b"
 
