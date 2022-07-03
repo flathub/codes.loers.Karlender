@@ -26,9 +26,9 @@ modules:
   - name: karlender
     buildsystem: simple
     build-commands:
-      - make -C target/gra-gen .flatpak-install
+      - cargo build --release
+      - make -C target/gra-gen install
     sources:
       - type: archive
-        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.4.4/karlender-0.4.4.tar.xz"
-        sha256: "6b0091d251370b16f65011ba2434feaafe36721227a3e9458a2ba20e3884eb6b"
-
+        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.5.1/karlender-0.5.1.tar.xz"
+        sha256: "fef3c48b5062e71b1da7f053847a08b936b74fe291de0551d8132807093eb9e6"
