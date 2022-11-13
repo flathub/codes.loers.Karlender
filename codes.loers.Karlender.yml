@@ -6,6 +6,7 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
 command: codes.loers.Karlender
 finish-args:
+  - --filesystem=home
   - --share=network
   - --socket=fallback-x11
   - --share=ipc
@@ -30,5 +31,5 @@ modules:
       - make -C target/gra-gen install
     sources:
       - type: archive
-        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.7.1/karlender-0.7.1.tar.xz"
-        sha256: "0e151e3077b8639398a700c1f7d9d6f9db9b308341636f380cc1974ce5d15fab"
+        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.8.0/karlender-0.8.0.tar.xz"
+        sha256: "9136d7f9bee53e25062aea48e5e7664a67e973dfdc5a96dca0a7e136b2bf6d86"
