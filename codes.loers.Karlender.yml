@@ -18,18 +18,18 @@ finish-args:
 build-options:
   append-path: /usr/lib/sdk/rust-stable/bin
   env:
-      CARGO_HOME: /run/build/karlender/cargo
+      CARGO_HOME: /run/build/Events/cargo
       RUSTFLAGS: --remap-path-prefix =../
       RUST_BACKTRACE: "1"
 modules:
 
-  - name: karlender
+  - name: Events
     buildsystem: simple
     build-commands:
       - cargo build --release
       - make -C target/gra-gen install
     sources:
       - type: archive
-        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.10.1/karlender-0.10.1.tar.xz"
-        sha256: "7703af63a3ecbfdc12ef09652a20dc1cede9cda705de961e7f8e5be5620aff68"
+        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.10.2/karlender-0.10.2.tar.xz"
+        sha256: "312b38b490a3b5ac98b3ddb366c0ce6e2414ef3e1c4f63580e1343c709d155df"
 
