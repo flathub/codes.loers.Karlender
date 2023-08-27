@@ -30,6 +30,6 @@ modules:
       - make -C target/gra-gen install
     sources:
       - type: archive
-        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.10.2/karlender-0.10.2.tar.xz"
-        sha256: "312b38b490a3b5ac98b3ddb366c0ce6e2414ef3e1c4f63580e1343c709d155df"
+        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.10.3-beta.e2f5d9a0/karlender-0.10.3-beta.e2f5d9a0.tar.xz"
+        sha256: "a6764e3145e20802e55f169a786c9f43f4198d8509f8f80ea7fedbbf6a789a3d"
 
