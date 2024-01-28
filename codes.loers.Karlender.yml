@@ -14,7 +14,6 @@ finish-args:
   - --device=dri
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.freedesktop.Notifications
-  - --talk-name=org.freedesktop.portal.Background
 build-options:
   append-path: /usr/lib/sdk/rust-stable/bin
   env:
