@@ -1,6 +1,6 @@
 app-id: codes.loers.Karlender
 runtime: org.gnome.Platform
-runtime-version: "44"
+runtime-version: "46"
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -31,4 +31,6 @@ modules:
       - type: archive
         url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.10.4/karlender-0.10.4.tar.xz"
         sha256: "f0f6ed2e43d12cb87dccf8a4db9a404be0c44998b228feda9052b1e3f6bb4843"
+      - type: patch
+        path: "fix_appdata.patch"
 
