@@ -1,6 +1,6 @@
 app-id: codes.loers.Karlender
 runtime: org.gnome.Platform
-runtime-version: "46"
+runtime-version: "47"
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -14,6 +14,7 @@ finish-args:
   - --device=dri
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.freedesktop.Notifications
+  - --talk-name=org.freedesktop.portal.Background
 build-options:
   append-path: /usr/lib/sdk/rust-stable/bin
   env:
@@ -29,8 +30,6 @@ modules:
       - make -C target/gra-gen install
     sources:
       - type: archive
-        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.10.4/karlender-0.10.4.tar.xz"
-        sha256: "f0f6ed2e43d12cb87dccf8a4db9a404be0c44998b228feda9052b1e3f6bb4843"
-      - type: patch
-        path: "fix_appdata.patch"
+        url: "https://gitlab.com/api/v4/projects/32697518/packages/generic/karlender/0.10.8/karlender-0.10.8.tar.xz"
+        sha256: "43f7cd6d5debe02654ae41dcf8b9fe4757ad39f9e601708f490268c4cd956ece"
 
